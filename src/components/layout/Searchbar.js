@@ -5,7 +5,8 @@ export class Searchbar extends Component {
         return (
             <div>
                 <div className="row">
-                    
+                    i
+
                 </div>
             </div>
         )
