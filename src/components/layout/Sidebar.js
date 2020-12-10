@@ -4,7 +4,7 @@ export class Sidebar extends Component {
     render() {
         return (
             <nav className="sidebar">
-                <a className="nav-link" href="##">Employee Profile</a>
+                <a className="nav-link active" href="##">Employee Profile</a>
                 <a className="nav-link" href="##">Onboard our Vehicles</a>
                 <a className="nav-link" href="##">Search & Hire Drivers</a>
                 <a className="nav-link" href="##">Inbox</a>
