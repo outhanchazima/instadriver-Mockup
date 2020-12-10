@@ -1,14 +1,17 @@
 import Navbar from './components/layout/Navbar';
-import Footer from './components/layout/Footer'
+import Footer from './components/layout/Footer';
+import Sidebar from './components/layout/Sidebar';
+import ChatScreen from './components/layout/ChatScreen';
+
 
 function App() {
   return (
-    <div className="container-fluid csnav" >
-      <div className="top">
+    <div className="container" >
+      <div className="container">
         <Navbar/>
+        <Sidebar/>
+        <ChatScreen/>
       </div>
-      
-      <h1>Hello World</h1>
       <div>
         <Footer/>
       </div>

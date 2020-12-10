@@ -6,27 +6,27 @@
      font-family: 'Rubik', sans-serif;
      box-sizing: border-box;
  }
- 
+
  .top {
      background: #fff;
      width: 100%;
      height: 65px;
  }
- 
+
  .navbar {
-     padding: 0px!important;
+     padding: 0px !important;
      background: #fff;
-     padding-bottom: 7px!important;
+     padding-bottom: 7px !important;
  }
- 
+
  .btn btn-dark {
-     font-size: 50px!important;
+     font-size: 50px !important;
  }
- 
+
  p {
      line-height: 1.75;
  }
- 
+
  a {
      color: #3B3B3B;
      font-family: Rubik;
@@ -35,62 +35,203 @@
      line-height: 22px;
  }
 
- h1, h2, h3, h4, h5, h6 {
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
      font-family: 'Rubik', sans-serif;
  }
 
-
- //NAVBAR
+ //Navigation Bar
  .box-nav {
-    height: 48px;
-    width: auto!important;
-    background-color: #fff;
-    text-transform: capitalize;
-    text-align: center;
-    color: #000;
-    margin-top: 9px;
-    font-size: 16px;
-    margin-right: 20px;
-    line-height: 49px;
-    font-weight: 200;
-    padding-left: 40px;
-    padding-right: 40px;
-    border: 2px solid #212529;
+     height: 48px;
+     width: auto !important;
+     background-color: #fff;
+     text-transform: capitalize;
+     text-align: center;
+     color: #000;
+     margin-top: 9px;
+     font-size: 16px;
+     margin-right: 20px;
+     line-height: 49px;
+     font-weight: 200;
+     padding-left: 40px;
+     padding-right: 40px;
+     border: 2px solid #212529;
+ }
+
+ .box-nav:hover {
+     color: #fff;
+     background-color: #000;
+ }
+
+ .box-nav:active {
+     color: #fff;
+     background-color: #000;
+ }
+
+ .nav-item {
+     color: #000;
+     border: #000;
+     background-color: #fff;
+ }
+
+ .menu {
+     height: 48px;
+     width: auto !important;
+     background-color: #fff;
+     text-transform: capitalize;
+     text-align: center;
+     color: #000;
+     margin-top: 9px;
+     font-size: 16px;
+     margin-right: 20px;
+     line-height: 49px;
+     font-weight: 200;
+     padding-left: 40px;
+     padding-right: 40px;
+ }
+
+ // Page Footer
+ .footer {
+     color: #fff;
+     position: fixed;
+     background-image: url(../src/img/footer.png);
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     background-position: center center;
+     background-size: cover;
+     height: auto;
+     padding-bottom: 0px;
+     bottom: 0px;
+
+
+ }
+
+ ul li a {
+     text-align: left;
+     color: #fff;
+     list-style: none;
+     text-decoration: none;
+     text-align: left;
+ }
+
+ .links {
+     list-style: none;
+     text-decoration: none;
+     color: #fff;
+     text-align: left;
+ }
+
+ //sideNav
+ .sidebar {
+     max-width: 14rem !important;
+     width: 100%;
+     min-height: 100vh;
+     background-color: #914A9C;
+     position: absolute;
+     top: 100px;
+     bottom: auto;
+     left: 0;
+     z-index: 1;
+     height: auto;
+ }
+
+ .sidebar .nav-link {
+     color: #fff;
+     font-size: 1.2em;
+ }
+
+ .sidebar .nav-link:hover,
+ .sidebar .nav-link.active {
+     background-color: #fff;
+     color: #000;
+     opacity: 1;
+     margin: 4px;
+     border-radius: 3px;
+ }
+
+ //CHAT SCREEN 1
+ .container-chart {
+     border: 2px solid #dedede;
+     background-color: #ECF2FA;
+     border-radius: 5px;
+     padding: 10px;
+     margin: 10px 0;
+     object-fit: contain;
+ }
+
+ .chat {
+     font-size: 15px;
+     line-height: 145%;
+ }
+
+ .chat-header {
+     font-size: 20px;
+     line-height: 145%;
+ }
+
+ /* Darker chat container */
+ .darker {
+     border-color: #FCF2F7;
+     background-color: #E8F5F9;
+ }
+
+ /* Clear floats */
+ .container::after {
+     content: "";
+     clear: both;
+     display: table;
+ }
+
+ /* Style images */
+ .container .container-chart img {
+     float: left;
+     max-width: 60px;
+     width: 100%;
+     margin-right: 20px;
+     border-radius: 50%;
+ }
+
+ /* Style the right image */
+ .container .container-chart img.right {
+     float: right;
+     margin-left: 40px;
+     margin-right: 0;
+ }
+
+ /* Style time text */
+ .time-right {
+     float: right;
+     color: #279F2C;
+ }
+
+ /* Style time text */
+ .time-left {
+     float: left;
+     color: #999;
+ }
+
+ .card {
+     overflow-y: scroll;
+     height: 400px;
+ }
+
+ .right {
+     float: right;
+ }
+ .left {
+    float: left;
 }
 
-.box-nav:hover{
-    color: #fff;
-    background-color: #000;
-}
-.box-nav:active{
-    color: #fff;
-    background-color: #000;
+.black {
+    width: 100%;
+    height: 32px;
+    background-color: #3B3B3B;
+    padding: 4px;
 }
 
-.nav-item {
-    color: #000;
-    border: #000;
-    background-color: #fff;
-}
-
-.menu {
-    height: 48px;
-    width: auto!important;
-    background-color: #fff;
-    text-transform: capitalize;
-    text-align: center;
-    color: #000;
-    margin-top: 9px;
-    font-size: 16px;
-    margin-right: 20px;
-    line-height: 49px;
-    font-weight: 200;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-//FOOTER
-
-
-// Import Bootstrap and its default variables
-@import '~bootstrap/scss/bootstrap.scss';
+ // Import Bootstrap and its default variables
+ @import '~bootstrap/scss/bootstrap.scss';

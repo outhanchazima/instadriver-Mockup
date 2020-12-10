@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export class Navbar extends Component {
     render() {
         return (
-            <div className="container-fluid csnav">
-                <div className="top">
+            <div className="container-fluid">
+                <div className="col top">
                     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
                         <div className="container">
                             <a className="navbar-brand js-scroll-trigger" href="###">  <img alt="logo" src="https://www.instadriver.co/img/logo.svg"></img> </a>
@@ -26,6 +26,8 @@ export class Navbar extends Component {
                             </div>
                         </div>
                     </nav>
+                </div>
+                <div className="col black">
                 </div>
             </div>
         )
